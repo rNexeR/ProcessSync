@@ -1,8 +1,8 @@
 #include "PosixSemaphore.h"
 
-PosixSemaphore::PosixSemaphore() : SemaphoreInterface("PosixSemaphore")
+PosixSemaphore::PosixSemaphore(int initial) : SemaphoreInterface("PosixSemaphore")
 {
-    sem_init(&(this->mutex), 0, 1);
+    sem_init(&(this->mutex), 0, initial);
 }
 
 PosixSemaphore::~PosixSemaphore()

@@ -34,8 +34,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/MySemaphore.h" />
+		<Unit filename="include/Philosophers.h" />
+		<Unit filename="include/PosixSemaphore.h" />
+		<Unit filename="include/ProducerAndConsumer.h" />
+		<Unit filename="include/ReadersAndWriters.h" />
 		<Unit filename="include/SemaphoreInterface.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/MySemaphore.cpp" />
+		<Unit filename="src/Philosophers.cpp" />
+		<Unit filename="src/PosixSemaphore.cpp" />
+		<Unit filename="src/ProducerAndConsumer.cpp" />
+		<Unit filename="src/ReadersAndWriters.cpp" />
 		<Unit filename="src/SemaphoreInterface.cpp" />
 		<Extensions>
 			<code_completion />

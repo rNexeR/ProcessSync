@@ -9,3 +9,4 @@ SemaphoreInterface::~SemaphoreInterface()
 {
     //dtor
 }
+

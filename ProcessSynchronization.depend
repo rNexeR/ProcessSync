@@ -1,21 +1,53 @@
 # depslib dependency file v1.0
-1479687328 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/main.cpp
+1479761267 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/main.cpp
 	<iostream>
-	<thread>
-	"SemaphoreInterface.h"
+	"ProducerAndConsumer.h"
+	"ReadersAndWriters.h"
+	"Philosophers.h"
 
 1479686730 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/SemaphoreInterface.h
 
-1479686897 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/SemaphoreInterface.cpp
+1479697212 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/SemaphoreInterface.cpp
 	"SemaphoreInterface.h"
 
-1479686881 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/SemaphoreInterface.h
+1479697219 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/SemaphoreInterface.h
 	<iostream>
 
-1479692813 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/PosixSemaphore.cpp
+1479696808 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/PosixSemaphore.cpp
 	"PosixSemaphore.h"
 
-1479692646 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/PosixSemaphore.h
+1479696535 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/PosixSemaphore.h
 	<SemaphoreInterface.h>
 	<semaphore.h>
+
+1479761242 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/ProducerAndConsumer.h
+	<thread>
+	"PosixSemaphore.h"
+	"MySemaphore.h"
+	<unistd.h>
+
+1479761259 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/ProducerAndConsumer.cpp
+	"ProducerAndConsumer.h"
+
+1479755833 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/ReadersAndWriters.cpp
+	"ReadersAndWriters.h"
+
+1479754597 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/ReadersAndWriters.h
+	<thread>
+	"PosixSemaphore.h"
+	<unistd.h>
+
+1479759043 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/Philosophers.h
+	<thread>
+	"PosixSemaphore.h"
+	<unistd.h>
+
+1479759261 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/Philosophers.cpp
+	"Philosophers.h"
+
+1479761207 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/MySemaphore.h
+	"SemaphoreInterface.h"
+
+1479761194 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/MySemaphore.cpp
+	"MySemaphore.h"
 

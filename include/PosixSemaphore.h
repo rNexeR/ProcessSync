@@ -8,10 +8,10 @@
 class PosixSemaphore : public SemaphoreInterface
 {
     public:
-        PosixSemaphore();
+        PosixSemaphore(int initial);
         virtual ~PosixSemaphore();
-        void wait();
-        void signal();
+        virtual void wait();
+        virtual void signal();
     protected:
     private:
         sem_t mutex;
