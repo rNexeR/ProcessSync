@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1479687328 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/main.cpp
+	<iostream>
+	<thread>
+	"SemaphoreInterface.h"
+
+1479686730 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/SemaphoreInterface.h
+
+1479686897 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/SemaphoreInterface.cpp
+	"SemaphoreInterface.h"
+
+1479686881 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/SemaphoreInterface.h
+	<iostream>
+
+1479692813 source:/home/rnexer/DEV/SISO1/C++/ProcessSynchronization/src/PosixSemaphore.cpp
+	"PosixSemaphore.h"
+
+1479692646 /home/rnexer/DEV/SISO1/C++/ProcessSynchronization/include/PosixSemaphore.h
+	<SemaphoreInterface.h>
+	<semaphore.h>
+
